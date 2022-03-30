@@ -1,32 +1,113 @@
-### Group Project Notes
+## **Assignment 3 Group Project**
 
-- Could make an advertisment website of your web development profile
+##### Maha, Josh, and Stephan
 
-1. Plan the website first
-2. What is this websites objectives
-3. Who is this website for
-4. Plan content
-5. Roles of responsibility of each team member
+### Website Template
 
-Group 3:
+- [DevEd](https://developedbyed.com/)
 
-- Stephan, Josh, and Maha
-- Can be in two sections:
-  - Planned Roles
-  - Completed Roles
+### Group Rules
 
-6. Create some ground rules for our project
-7. How we handle the passing
-8. style guide
+- Communicate with each other over slack before pushes
+- Don't change the code of others!!!!
+- Be respectful of eachother
+- Each page follows themse of home page
+- Communicate how your feeling
+- If you are struggling ask for help
 
-- fonts and colors
+### **Website Plan**
 
-9. Guidelines:
+#### _Mission of our Website_
+
+- Tutorial Website
+
+#### _Objective of Website_
+
+- Sell our tutorials
+
+#### _Who is this website for?_
+
+- People who want to learn to code
+
+### Figma Mockup
+
+### _Plan content_
+
+- 4 page website
+  - Home
+  - Courses
+  - About us
+  - Contact
+- Sections/Components of our Website
+  - **Home Page**
+    - Header
+      - Nav-bar
+      - Links
+      - Logo
+    - Hero
+      - title
+      - text
+      - background-image
+      - cta
+    - Cards (3)
+      - background-image
+      - title
+      - text
+      - author
+      - price
+    - Large video
+      - imbeded video
+  - **Courses**
+    - Header
+      - Logo
+      - nav-links
+      - title
+    - 5 Cards (courese we offer)
+      - image
+      - title
+      - text
+      - author
+      - price
+  - **About Us**
+    - Header
+      - nav-links
+      - title
+      - logo
+    - Cards?
+  - **Contact Page**
+    - header
+
+### **Style Guide**:
+
+- Color Scheme
+  - Option 1:
+    - https://color.adobe.com/create/color-wheel
+- Font
+
+## Roles of Responsibility of each Team Member
+
+### Josh
+
+- Create a figma mockup
+
+### Maha
+
+- Create a wireframe
+  - Figjam
+
+### Stephan
+
+- Base components on nuxt/vue
+
+### Further Guidelines
 
 - Plugins with the same rules such as eslin and prettier
 
-- Charter
-  - Obligations
-  - Goals
-  - Roles that we are all playing
-    - What each of use are going to do
+### Attributions
+
+- Color Palette
+  - [Colorscheme](https://color.adobe.com/create/color-wheel)
+- Website Template
+  - [DevEd](https://developedbyed.com/)
+- Inspirational Designs
+  - [Awwwards](https://www.awwwards.com/)
