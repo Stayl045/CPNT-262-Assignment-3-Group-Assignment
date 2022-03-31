@@ -1,11 +1,14 @@
 <template>
-  <pre>{{ cards }}</pre>
   <section
     v-for="card in cards"
-    :key="cards.id"
-    class="flex flex-wrap flex-shrink-0 justify-center text-center justify-items-center gap-20 bg-cover mt-16 rounded-md mb-10"
+    :key="card.id"
+    class="grid text-center content-center bg-slate-400 shadow-lg shadow-slate-400 w-full max-w-[25vw] h-quarter bg-cover bg-center bg-no-repeat"
+    :style="{ 'background-image': `url(${card.image.backgroundImage})` }"
   >
+    <!-- <CardImage>{{ card.image }}</CardImage> -->
     <CardTitle>{{ card.title }}</CardTitle>
+    <CardDescription>{{ card.description }}</CardDescription>
+    <slot></slot>
   </section>
 </template>
 

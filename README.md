@@ -110,4 +110,13 @@
 - Website Template
   - [DevEd](https://developedbyed.com/)
 - Inspirational Designs
+
   - [Awwwards](https://www.awwwards.com/)
+
+- Card Images
+
+  - Photo by [JacksonSo](https://unsplash.com/photos/wUbNvDTsOIc)
+
+  - Phot by [GregRakozy](https://unsplash.com/@grakozy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+  - Photo by [ClaudioSchwartz](https://unsplash.com/photos/i25aqE_YUZs)
