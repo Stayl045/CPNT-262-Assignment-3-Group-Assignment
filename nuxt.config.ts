@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "~/components/layouts",
     "~/components/ui",
     "~/components/cards",
+    "~/components/Coursescard",
     "~/components/header",
     "~/components/hero",
     "~/server/api",

@@ -6,8 +6,8 @@
     :style="{ 'background-image': `url(${card.image.backgroundImage})` }"
   >
     <!-- <CardImage>{{ card.image }}</CardImage> -->
-    <CardTitle>{{ card.title }}</CardTitle>
-    <CardDescription>{{ card.description }}</CardDescription>
+    <CouresesTitleCard>{{ card.title }}</CouresesTitleCard>
+    <CouresesDescriptionCard>{{ card.description }} </CouresesDescriptionCard>
     <slot></slot>
   </section>
 </template>
@@ -36,6 +36,23 @@
       image: {
         backgroundImage:
           "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+      },
+    },
+    {
+      title: "Front End Bundle",
+      description: "Learn Front End development with HTML,CSS and Javascript",
+      image: {
+        backgroundImage:
+          "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+      },
+    },
+
+    {
+      title: "Python",
+      description: "Learn how develop software and websites",
+      image: {
+        backgroundImage:
+          "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       },
     },
   ];
