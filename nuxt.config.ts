@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     "~components/header",
     "~components/hero",
     "~server/api",
+    "~pages",
   ],
   buildModules: ["@nuxtjs/tailwindcss"],
   modules: [],
