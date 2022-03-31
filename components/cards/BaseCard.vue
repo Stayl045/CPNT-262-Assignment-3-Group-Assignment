@@ -1,6 +1,5 @@
 <template>
-  <pre>{{ cards }}</pre>
-  <section
+  /  <section
     v-for="card in cards"
     :key="cards.id"
     class="flex flex-wrap flex-shrink-0 justify-center text-center justify-items-center gap-20 bg-cover mt-16 rounded-md mb-10"
