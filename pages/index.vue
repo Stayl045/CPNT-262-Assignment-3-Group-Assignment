@@ -1,1 +1,8 @@
-<template></template>
+<template>
+  <section>
+    <header>
+      <h1>This is a test</h1>
+    </header>
+    <BaseCard />
+  </section>
+</template>
