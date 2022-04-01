@@ -1,5 +1,6 @@
 <template>
   <section>
+    <NuxtLink to="/about">About</NuxtLink>
     <header>
       <h1>This is a test</h1>
     </header>
@@ -9,7 +10,5 @@
     >
       <BaseCard />
     </section>
-
-   
   </section>
 </template>
