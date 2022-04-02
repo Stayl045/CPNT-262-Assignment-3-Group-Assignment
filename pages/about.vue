@@ -5,6 +5,10 @@
     <li v-for="sunrise in sunriseTracker" :key="sunrise.id">
       {{ sunrise.sunrise }}
     </li>
+    <h3>Sunset of Calgary</h3>
+    <li v-for="sunrise in sunriseTracker" :key="sunrise.id">
+      {{ sunrise.sunset }}
+    </li>
   </ul>
   <!-- <pre>{{ Weather }}</pre> -->
 </template>
