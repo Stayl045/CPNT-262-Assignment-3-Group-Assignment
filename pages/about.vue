@@ -22,8 +22,8 @@
     <div class="bg-slate-200 grid grid-cols-2 gap-2 display: flex md:flex mt-8 shadow-lg">
 
     <div class="mt-24 pl-10">
-    <h1 class="text-black font-extrabold text-2xl ">PROJECT-BASED</h1>
-    <p class="text-black font-medium text-xl pt-3 px-5">Our expertly-designed courses are also project-based,  meaning you won’t just learn theory. </p>
+    <h1 class="text-black font-extrabold text-2xl pt-15">PROJECT-BASED</h1>
+    <p class="text-black font-medium text-xl pt-3 px-5">Our expertly-designed courses are also project-based, meaning you won’t just learn theory. </p>
   
     </div>
     <div class="flex sm:flex">
