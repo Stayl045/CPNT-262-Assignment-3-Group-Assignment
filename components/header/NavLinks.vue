@@ -34,7 +34,7 @@
         >About</a
       >
       <a
-        href="#"
+        href=""
         class="block px-2 py-1 text-white font-semibold hover:bg-gray-800 rounded"
         >Conact</a
       >
