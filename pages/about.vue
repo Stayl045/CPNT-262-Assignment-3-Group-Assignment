@@ -9,6 +9,7 @@
     <li v-for="sunrise in sunriseTracker" :key="sunrise.id">
       {{ sunrise.sunset }}
     </li>
+    <h2>Hi</h2>
   </ul>
   <!-- <pre>{{ Weather }}</pre> -->
 </template>
