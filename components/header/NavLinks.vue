@@ -4,23 +4,19 @@
       <button
         @click="isOpen = !isOpen"
         type="button"
-        class="block text-gray-500 focus:text-white focus:outline-none"
+        class="block text-white focus:text-white focus:outline-none"
       >
         <svg
-          class="h-6 w-6 fill-white"
+          class="h-6 w-6 fill-current"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
-          width="30"
-          height="30"
         >
           <path
             v-if="isOpen"
-            fill-rule="evenodd"
-            d="M376.6 427.5a32 32 0 1 1-49.2 41L192 305 56.6 467.6a32 32 0 1 1-49.2-41l143-171.5L7.3 84.5a32 32 0 1 1 49.2-41L192 206 327.4 43.5a32 32 0 1 1 49.2 41L233.6 256l143 171.5z"
+            d="M310.6 361.4a32 32 0 1 1-45.2 45.2L160 301.3 54.6 406.6a31.7 31.7 0 0 1-45.2 0 32 32 0 0 1 0-45.3L114.8 256 9.4 150.6a32 32 0 1 1 45.2-45.3L160 210.8l105.4-105.4a32 32 0 1 1 45.3 45.3L205.1 256l105.4 105.3z"
           />
           <path
             v-if="!isOpen"
-            fill-rule="evenodd"
             class="fill-white"
             d="M3 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2H3zm0
         7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2H3zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0
