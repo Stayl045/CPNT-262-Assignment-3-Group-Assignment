@@ -1,13 +1,13 @@
 <template>
   <section
-    class="grid grid-cols-3 bg-gray-900 opacity-95 h-50 mt-7 text-white w-full"
+    class="grid grid-cols-3 bg-gray-900 opacity-95 mt-7 text-white w-full"
   >
     <FooterCopyright>
       <footer>
         <p>&copy; Stephan Taylor, Josh Beaudion, and Mahalakshmi</p>
       </footer>
     </FooterCopyright>
-    <div class="grid col-start-5 pt-6 mb-6 pr-12">
+    <div class="grid col-start-5 pt-6 mb-3 pr-12">
       <FooterSocialMedia>
         <a :href="'/'" class="hover:text-red-400 text-3xl">Social</a>
         <a :href="'/'" class="hover:text-red-400">Instagram</a>

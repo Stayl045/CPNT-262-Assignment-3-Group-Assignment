@@ -1,6 +1,5 @@
 <template>
-  <div class="flex items-center justify-between bg-gray-900 py-7 px-7">
-    <TheLogo />
+  <header class="bg-gray-900 py-7 px-7">
     <NavLinks />
-  </div>
+  </header>
 </template>
