@@ -22,23 +22,13 @@
         </svg>
       </button>
     </div>
-    <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4">
-      <a
-        href="#"
-        class="block px-2 py-1 text-white font-semibold hover:bg-gray-800 rounded"
-        >Home</a
-      >
-      <a
-        href="#"
-        class="block px-2 py-1 text-white font-semibold hover:bg-gray-800 rounded"
-        >About</a
-      >
-      <a
-        href=""
-        class="block px-2 py-1 text-white font-semibold hover:bg-gray-800 rounded"
-        >Conact</a
-      >
-    </div>
+    <NuxtLink
+      v-for="navLink in navLinks"
+      :key="navLink.id"
+      class="block px-2 font-semibold text-gray-500 hover:text-gray-700 focus:text-gray-700"
+      :to="navLink.path"
+      >{{ navLink.name }}</NuxtLink
+    >
   </div>
 </template>
 
@@ -50,4 +40,21 @@
       };
     },
   };
+</script>
+
+<script setup>
+  const navLinks = [
+    {
+      name: "Courses",
+      path: "/courses",
+    },
+    {
+      name: "About",
+      path: "/about",
+    },
+    {
+      name: "Contact",
+      path: "/contact",
+    },
+  ];
 </script>
