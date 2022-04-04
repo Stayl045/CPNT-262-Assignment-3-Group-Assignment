@@ -11,4 +11,5 @@
       <BaseCard />
     </section>
   </section>
+  <BaseFooter />
 </template>
