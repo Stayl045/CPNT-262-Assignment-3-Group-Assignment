@@ -19,8 +19,8 @@
         ><a href="https://www.embedgooglemap.net">google maps embed html</a>
       </div>
     </div>
+    <BaseFooter />
   </section>
-  <BaseFooter />
 </template>
 
 <style>
