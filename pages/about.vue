@@ -8,7 +8,7 @@
     <div class=" bg-slate-200 grid grid-cols-2 gap-2  mt-6 shadow-lg">
 
       
-<div class="pl-10">
+  <div class="pl-10">
     <img src="https://images.pexels.com/photos/6002000/pexels-photo-6002000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="online" class="h-96 w-full">
    </div>
 

@@ -3,6 +3,15 @@
     <header>
       <BaseHeader />
     </header>
+    <div class=" grid grid-cols-2 gap-2  mt-6 p-5">
+    <div>
+      <h1 class="font-extrabold text-4xl text-center m-7">Contact Us</h1>
+      <h2 class="font-bold text-2xl mt-5 ">EasyWebDev</h2>
+      <p class="font-semibold text-xl mt-3 pl-3">Address: 123456, ABC street, Calgary</p>
+      <p class="font-semibold text-xl mt-3 pl-3">mail-id : xyz@gmail.com</p>
+      <p class="font-semibold text-xl mt-3 pl-3">Toll-free : 1-234-567-8910 </p>
+
+    </div>
     <div class="mapouter">
       <div class="gmap_canvas">
         <iframe
@@ -18,6 +27,7 @@
         ><a href="https://www.whatismyip-address.com/divi-discount/"></a><br />
         ><a href="https://www.embedgooglemap.net">google maps embed html</a>
       </div>
+    </div>
     </div>
     <BaseFooter />
   </section>
