@@ -46,14 +46,14 @@
     height: 500px;
     width: 600px;
   }
-  .navbar {
-    width: 100%;
-    height: 60px;
-    background-color: black;
-    bottom: 0;
-    position: fixed;
-    box-shadow: 0.1px 0.1px 15px 0.1px #273c75;
-    border-radius: 10px;
-    display: flex;
+  .header{
+  width: 100%;
+  height: 60px;
+  background-color:black;
+  bottom: 0;
+  position: fixed;
+  box-shadow: 0.1px 0.1px 15px 0.1px #273c75;
+  border-radius:10px;
+  display: flex
   }
 </style>
