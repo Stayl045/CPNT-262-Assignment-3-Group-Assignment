@@ -9,7 +9,7 @@
       >
         <CoursesBaseCard />
       </div>
+      <BaseFooter />
     </section>
-    <BaseFooter />
   </div>
 </template>
