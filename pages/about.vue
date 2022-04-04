@@ -1,16 +1,22 @@
 <template>
-  <!-- <h1>{{ Weather[0] }}</h1> -->
-  <ul>
-    <h3>Sunrise of Calgary</h3>
-    <li v-for="sunrise in sunriseTracker" :key="sunrise.id">
-      {{ sunrise.sunrise }}
-    </li>
-    <h3>Sunset of Calgary</h3>
-    <li v-for="sunrise in sunriseTracker" :key="sunrise.id">
-      {{ sunrise.sunset }}
-    </li>
-    <h2>Hi</h2>
-  </ul>
+  <section>
+    <header>
+      <BaseHeader />
+    </header>
+    <!-- <h1>{{ Weather[0] }}</h1> -->
+    <ul>
+      <h3>Sunrise of Calgary</h3>
+      <li v-for="sunrise in sunriseTracker" :key="sunrise.id">
+        {{ sunrise.sunrise }}
+      </li>
+      <h3>Sunset of Calgary</h3>
+      <li v-for="sunrise in sunriseTracker" :key="sunrise.id">
+        {{ sunrise.sunset }}
+      </li>
+      <h2>Hi</h2>
+    </ul>
+  </section>
+  <BaseFooter />
   <!-- <pre>{{ Weather }}</pre> -->
 </template>
 
