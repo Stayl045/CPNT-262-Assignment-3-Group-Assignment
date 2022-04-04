@@ -30,7 +30,7 @@
     height: 500px;
     width: 600px;
   }
-  .navbar{
+  .header{
   width: 100%;
   height: 60px;
   background-color:black;
