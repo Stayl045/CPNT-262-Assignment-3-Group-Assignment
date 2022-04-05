@@ -2,7 +2,7 @@
   <section
     v-for="card in cards"
     :key="card.id"
-    class="grid text-center content-center justify-between bg-slate-400 shadow-lg shadow-slate-400 lg:w-[25vw] bg-cover bg-center"
+    class="grid text-center content-center justify-between bg-slate-400 shadow-lg shadow-slate-400 lg:w-[25vw] w-2/4 bg-cover bg-center"
     :style="{ 'background-image': `url(${card.image.backgroundImage})` }"
   >
     <!-- <CardImage>{{ card.image }}</CardImage> -->
