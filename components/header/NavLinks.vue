@@ -2,7 +2,7 @@
   <section>
     <div class="flex items-center justify-between px-4 py-3">
       <NuxtLink to="/">
-        <img src="../../assets/images/dev-log-final.svg" alt="" />
+        <img src="../../assets/images/dev-log-final.svg" alt="logo" />
       </NuxtLink>
       <div>
         <button

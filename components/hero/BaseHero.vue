@@ -1,9 +1,17 @@
 <template>
-  <section :style="{ backgroundImage: `url(${image})` }" class="h-96 bg-auto">
-    <h1 class="pt-10 pl-5 text-white">THIS IS HERO SECTION</h1>
-    <p class="pt-5 pl-5 mb-6 text-white">Description</p>
-
-    <a class ="text-white bg-teal-600 rounded-lg p-2 ml-5" href="/courses"> View Courses</a>
+  <section
+    :style="{ backgroundImage: `url(${image})` }"
+    class="h-screen bg-cover"
+  >
+    <div class="grid text-center content-center">
+      <h1 class="text-white mt-80">{{ title }}</h1>
+      <p class="pt-5 pl-5 mb-6 text-white">{{ description }}</p>
+      <HeroButton>
+        <button class="bg-teal-600 p-7 rounded-md text-white">
+          <a class="" href="/courses"> {{ button }}</a>
+        </button>
+      </HeroButton>
+    </div>
   </section>
 </template>
 
@@ -14,6 +22,9 @@
     data() {
       return {
         image: bikeImg,
+        title: "THIS IS A HERO SECTION",
+        description: "WEB DEVELOPMENT MADE EASY AND FUN!",
+        button: "View Courses",
       };
     },
   };
