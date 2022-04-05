@@ -4,9 +4,11 @@
       <BaseHeader />
     </header>
     <!-- <h1>{{ Weather[0] }}</h1> -->
-    <h1 class="font-extrabold text-4xl text-center m-7">All Our Courses Are</h1>
-    <div class="bg-slate-200 grid grid-cols-2 gap-2 mt-6 shadow-lg">
-      <div class="pl-10">
+    <h1 class="font-extrabold text-4xl text-center m-7">
+      The Courses We Offer
+    </h1>
+    <div class="grid grid-cols-2 gap-2 mt-6 shadow-lg">
+      <div>
         <img
           src="https://images.pexels.com/photos/6002000/pexels-photo-6002000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="online"
@@ -14,23 +16,27 @@
         />
       </div>
 
-      <div class="mt-24 pl-10">
+      <div
+        class="bg-slate-200 grid text-center content-center pl-10 pt-3 px-10"
+      >
         <h1 class="text-black font-extrabold text-2xl">ONLINE & FLEXIBLE</h1>
-        <p class="text-black font-medium text-xl pt-3 px-10">
+        <p class="text-black font-medium text-xl">
           Our courses are all online and self-paced, meaning you can take them
           wherever and whenever it’s convenient for you.
         </p>
       </div>
     </div>
-    <div class="bg-slate-200 grid grid-cols-2 gap-2 mt-8 shadow-lg">
-      <div class="mt-24 pl-10">
-        <h1 class="text-black font-extrabold text-2xl pt-15">PROJECT-BASED</h1>
-        <p class="text-black font-medium text-xl pt-3 px-10">
+    <div class="grid grid-cols-2 gap-2 mt-6 shadow-lg">
+      <div
+        class="bg-slate-200 grid text-center content-center pl-10 pt-3 px-10"
+      >
+        <h1 class="text-black font-extrabold text-2xl">PROJECT-BASED</h1>
+        <p class="text-black font-medium text-xl">
           Our expertly-designed courses are also project-based, meaning you
           won’t just learn theory.
         </p>
       </div>
-      <div class="pr-10">
+      <div>
         <img
           src="https://images.pexels.com/photos/461077/pexels-photo-461077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           alt="online"
@@ -51,8 +57,8 @@
         <h2>Hi</h2>
       </ul>
     </div>
+    <BaseFooter />
   </section>
-  <BaseFooter />
   <!-- <pre>{{ Weather }}</pre> -->
 </template>
 

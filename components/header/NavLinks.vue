@@ -1,9 +1,9 @@
 <template>
   <section>
     <div class="flex items-center justify-between px-4 py-3">
-      <div>
+      <NuxtLink to="/">
         <img class="h-8" src="../../assets/images/Skull 2(1).svg" alt="logo" />
-      </div>
+      </NuxtLink>
       <div>
         <button
           @click="isOpen = !isOpen"
@@ -35,11 +35,11 @@
         </button>
       </div>
     </div>
-    <div :class="isOpen ? 'block' : 'hidden'">
+    <div :class="isOpen ? 'block' : 'hidden'" class="bg-gray-900">
       <NuxtLink
         v-for="navLink in navLinks"
         :key="navLink.id"
-        class="block px-2 font-semibold text-gray-500 hover:text-white focus:text-gray-600"
+        class="block px-2 font-semibold text-gray-500 hover:text-white focus:text-gray-600 text-2xl"
         :to="navLink.path"
         >{{ navLink.name }}</NuxtLink
       >

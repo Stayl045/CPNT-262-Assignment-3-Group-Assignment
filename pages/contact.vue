@@ -3,22 +3,20 @@
     <header>
       <BaseHeader />
     </header>
-    <div class="grid grid-cols-2 gap-2 mt-6 p-5">
-      <div>
+    <div class="grid grid-cols-2 gap-2 mt-6 pl-14">
+      <div class="flex flex-col">
         <h1 class="font-extrabold text-4xl text-center m-7">Contact Us</h1>
         <h2 class="font-bold text-2xl mt-5">EasyWebDev</h2>
-        <p class="font-semibold text-xl mt-3 pl-3">
+        <p class="font-semibold text-xl mt-3">
           Address: 123456, ABC street, Calgary
         </p>
-        <p class="font-semibold text-xl mt-3 pl-3">mail-id : xyz@gmail.com</p>
-        <p class="font-semibold text-xl mt-3 pl-3">
-          Toll-free : 1-234-567-8910
-        </p>
+        <p class="font-semibold text-xl mt-3">mail-id : xyz@gmail.com</p>
+        <p class="font-semibold text-xl mt-3">Toll-free : 1-234-567-8910</p>
       </div>
       <div class="mapouter flex flex-wrap">
         <div class="gmap_canvas flex flex-wrap">
           <iframe
-            class="h-full w-full flex-wrap"
+            class="h-full w-full flex flex-wrap rounded-xl"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=calgary&t=&z=13&ie=UTF8&iwloc=&output=embed"
             frameborder="0"
