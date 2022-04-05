@@ -2,12 +2,14 @@
   <section
     v-for="card in cards"
     :key="card.id"
-    class="grid text-center content-center bg-slate-400 shadow-lg shadow-slate-400 w-full max-w-[25vw] h-quarter bg-cover bg-center bg-no-repeat"
+    class="flex items-center space-around bg-slate-400 shadow-lg shadow-slate-400 lg:w-[25vw] bg-cover bg-center bg-no-repeat"
     :style="{ 'background-image': `url(${card.image.backgroundImage})` }"
   >
     <!-- <CardImage>{{ card.image }}</CardImage> -->
-    <CouresesTitleCard>{{ card.title }}</CouresesTitleCard>
-    <CouresesDescriptionCard>{{ card.description }} </CouresesDescriptionCard>
+    <div class="grid text-center content-center px-8">
+      <CouresesTitleCard>{{ card.title }}</CouresesTitleCard>
+      <CouresesDescriptionCard>{{ card.description }} </CouresesDescriptionCard>
+    </div>
     <slot></slot>
   </section>
 </template>
