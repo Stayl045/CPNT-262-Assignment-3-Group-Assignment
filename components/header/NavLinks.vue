@@ -1,10 +1,10 @@
 <template>
-  <section>
-    <div class="flex items-center justify-between px-4 py-3">
-      <NuxtLink to="/">
+  <section class="sm:flex sm:justify-between sm:px-3 sm:items-center sm:py-3">
+    <div class="flex items-center justify-between px-4 py-3 sm:p-0">
+      <NuxtLink to="/" class="animate-pulse">
         <img src="../../assets/images/dev-log-final.svg" alt="logo" />
       </NuxtLink>
-      <div>
+      <div class="sm:hidden">
         <button
           @click="isOpen = !isOpen"
           type="button"
@@ -35,11 +35,14 @@
         </button>
       </div>
     </div>
-    <div :class="isOpen ? 'block' : 'hidden'" class="bg-gray-900">
+    <div
+      :class="isOpen ? 'block' : 'hidden'"
+      class="sm:flex mt-1 sm:ml-2 sm:p-0 mr-2"
+    >
       <NuxtLink
         v-for="navLink in navLinks"
         :key="navLink.id"
-        class="block px-2 font-semibold text-gray-500 hover:text-white focus:text-gray-600 text-2xl"
+        class="block p-2 font-semibold text-[#09A59A] hover:bg-gray-700 hover:text-white hover:rounded-md px-2 focus:text-gray-600 text-lg sm:mt-0"
         :to="navLink.path"
         >{{ navLink.name }}</NuxtLink
       >

@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     "~/components/header",
     "~/components/hero",
     "~/components/footer",
+    "~/components/subscribe",
   ],
   buildModules: ["@nuxtjs/tailwindcss"],
   modules: [],

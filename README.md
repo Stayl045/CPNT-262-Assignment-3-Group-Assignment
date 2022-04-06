@@ -120,5 +120,10 @@
   - Phot by [GregRakozy](https://unsplash.com/@grakozy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
   - Photo by [ClaudioSchwartz](https://unsplash.com/photos/i25aqE_YUZs)
+  - Photo by [Lautra Andreani](https://unsplash.com/photos/UYsBCu9RP3Y)
 
-- Website Mockup- (https://www.figma.com/file/hezO6cpTxxVAym5bIVgMCU/Untitled?node-id=0%3A1)
+<<<<<<< HEAD
+
+- # Website Mockup- (https://www.figma.com/file/hezO6cpTxxVAym5bIVgMCU/Untitled?node-id=0%3A1)
+  - [WebSite Mockup](https://www.figma.com/file/hezO6cpTxxVAym5bIVgMCU/Untitled?node-id=0%3A1)
+    > > > > > > > b269f4aaa2cdcb97ab84fa69063558f1ab6124c0

@@ -1,13 +1,17 @@
 <template>
   <section
     :style="{ backgroundImage: `url(${image})` }"
-    class="h-screen bg-cover"
+    class="max-h-full h-[80vh] bg-center"
   >
     <div class="grid text-center content-center">
-      <h1 class="text-white mt-80">{{ title }}</h1>
-      <p class="pt-5 pl-5 mb-6 text-white">{{ description }}</p>
+      <h1 class="text-white mt-60 text-3xl font-bold accent-cyan-500">
+        {{ title }}
+      </h1>
+      <p class="pt-5 pl-5 mb-6 text-white font-semibold">{{ description }}</p>
       <HeroButton>
-        <button class="bg-teal-600 p-7 rounded-md text-white">
+        <button
+          class="bg-teal-600 font-semibold p-5 rounded-md text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-teal-800 duration-300"
+        >
           <a class="" href="/courses"> {{ button }}</a>
         </button>
       </HeroButton>
@@ -22,10 +26,17 @@
     data() {
       return {
         image: bikeImg,
-        title: "THIS IS A HERO SECTION",
-        description: "WEB DEVELOPMENT MADE EASY AND FUN!",
+        title: "CODING MADE EASY!",
+        description: "LEARN WEB DEVELOPMENT THE FUN AND EASY WAY!",
         button: "View Courses",
       };
     },
   };
 </script>
+
+<style scoped>
+  h1,
+  p {
+    text-shadow: 2px 2px black;
+  }
+</style>
