@@ -2,7 +2,7 @@
   <section
     v-for="card in cards"
     :key="card.id"
-    class="grid text-center content-center bg-slate-100 shadow-lg shadow-slate-400 w-[90%] lg:max-w-[25vw] h-quarter bg-cover bg-center bg-no-repeat"
+    class="grid text-center content-center bg-slate-100 shadow-lg shadow-slate-400 w-[90%] lg:max-w-[25vw] h-quarter bg-cover bg-center bg-no-repeat rounded-3xl"
     :style="{ 'background-image': `url(${card.image.backgroundImage})` }"
   >
     <!-- <CardImage>{{ card.image }}</CardImage> -->
@@ -11,7 +11,7 @@
       <CouresesDescriptionCard>{{ card.description }}</CouresesDescriptionCard>
       <CoursesButton>
         <button
-          class="bg-teal-600 p-3 rounded-md text-white font-semibold hover:bg-gray-800 hover:scale-110 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+          class="bg-teal-600 p-3 rounded-md text-white font-semibold hover:bg-gray-800 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-teal-800 duration-300"
         >
           {{ card.button }}
         </button>
