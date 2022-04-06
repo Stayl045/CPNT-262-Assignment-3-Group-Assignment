@@ -26,7 +26,7 @@
         </p>
       </div>
     </div>
-    <div class="grid grid-cols-2 gap-2 mt-6 shadow-lg">
+    <div class="grid grid-cols-2 gap-2 mt-6 shadow-lg ">
       <div
         class="bg-slate-200 grid text-center content-center pl-10 pt-3 px-10"
       >
@@ -44,18 +44,19 @@
         />
       </div>
     </div>
-    <div>
+    
+    <div class="bg-slate-200 mt-6 mx-25 p-5 shadow-lg">
+      
       <ul>
-        <h3>Sunrise of Calgary</h3>
+        <h3 class="font-bold ">Sunrise of Calgary</h3>
         <li v-for="sunrise in sunriseTracker" :key="sunrise.id">
           {{ sunrise.sunrise }}
         </li>
-        <h3>Sunset of Calgary</h3>
+        <h3 class="font-bold" >Sunset of Calgary</h3>
         <li v-for="sunrise in sunriseTracker" :key="sunrise.id">
           {{ sunrise.sunset }}
         </li>
-        <h2>Hi</h2>
-      </ul>
+        </ul>
     </div>
     <BaseFooter />
   </section>

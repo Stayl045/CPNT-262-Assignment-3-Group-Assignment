@@ -93,7 +93,7 @@
 ### Maha
 
 - Create a wireframe
-  - Figjam
+  - [Figjam](https://www.figma.com/file/s44OR6dequPVA67PzJvqNF/cpnt262-a3-group_project)s
 
 ### Stephan
 
@@ -121,4 +121,4 @@
 
   - Photo by [ClaudioSchwartz](https://unsplash.com/photos/i25aqE_YUZs)
 
-- Website Mockup- (https://www.figma.com/file/hezO6cpTxxVAym5bIVgMCU/Untitled?node-id=0%3A1) 
+- Website Mockup- (https://www.figma.com/file/hezO6cpTxxVAym5bIVgMCU/Untitled?node-id=0%3A1)
