@@ -16,7 +16,7 @@
       <div class="mapouter flex flex-wrap">
         <div class="gmap_canvas flex flex-wrap">
           <iframe
-            class="h-full w-full flex flex-wrap rounded-xl"
+            class="h-full w-full grid lg:max-w-[50vw] sm:max-w-[25vw] sm:min-h-[25vh] rounded-xl"
             id="gmap_canvas"
             src="https://maps.google.com/maps?q=calgary&t=&z=13&ie=UTF8&iwloc=&output=embed"
             frameborder="0"
@@ -25,7 +25,7 @@
           ></iframe
           ><a href="https://www.whatismyip-address.com/divi-discount/"></a
           ><br />
-          ><a href="https://www.embedgooglemap.net">google maps embed html</a>
+          ><a href="https://www.embedgooglemap.net"></a>
         </div>
       </div>
     </div>
