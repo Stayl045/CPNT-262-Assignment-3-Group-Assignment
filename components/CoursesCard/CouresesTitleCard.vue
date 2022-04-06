@@ -5,3 +5,9 @@
     <slot> </slot>
   </h3>
 </template>
+
+<style scoped>
+  h3 {
+    text-shadow: 2px 2px black;
+  }
+</style>
