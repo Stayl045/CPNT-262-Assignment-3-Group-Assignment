@@ -1,7 +1,7 @@
 <template>
   <section class="sm:flex sm:justify-between sm:px-3 sm:items-center sm:py-3">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-      <NuxtLink to="/">
+      <NuxtLink to="/" class="animate-pulse">
         <img src="../../assets/images/dev-log-final.svg" alt="logo" />
       </NuxtLink>
       <div class="sm:hidden">
@@ -42,7 +42,7 @@
       <NuxtLink
         v-for="navLink in navLinks"
         :key="navLink.id"
-        class="block p-2 font-semibold text-[#09A59A] hover:bg-gray-700 hover:text-white hover:rounded-md px-2 focus:text-gray-600 text-xl sm:mt-0"
+        class="block p-2 font-semibold text-[#09A59A] hover:bg-gray-700 hover:text-white hover:rounded-md px-2 focus:text-gray-600 text-lg sm:mt-0"
         :to="navLink.path"
         >{{ navLink.name }}</NuxtLink
       >

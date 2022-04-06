@@ -11,7 +11,7 @@
       <CouresesDescriptionCard>{{ card.description }}</CouresesDescriptionCard>
       <CoursesButton>
         <button
-          class="bg-teal-600 p-3 rounded-md text-white font-semibold hover:bg-gray-700"
+          class="bg-teal-600 p-3 rounded-md text-white font-semibold hover:bg-gray-800 hover:scale-110 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
         >
           {{ card.button }}
         </button>
