@@ -10,8 +10,8 @@
 
 - Communicate with each other over slack before pushes
 - Don't change the code of others!!!!
-- Be respectful of eachother
-- Each page follows themse of home page
+- Be respectful of each other
+- Each page follows theme of home page
 - Communicate how your feeling
 - If you are struggling ask for help
 
@@ -56,13 +56,13 @@
       - author
       - price
     - Large video
-      - imbeded video
+      - embed a video?
   - **Courses**
     - Header
       - Logo
       - nav-links
       - title
-    - 5 Cards (courese we offer)
+    - 5 Cards (course we offer)
       - image
       - title
       - text
@@ -81,14 +81,18 @@
 
 - Color Scheme
   - Option 1:
-    - https://color.adobe.com/create/color-wheel
-- Font
+    - [ColorPalette](https://color.adobe.com/create/color-wheel)
 
 ## Roles of Responsibility of each Team Member
+
+## HackMD
+
+- Our [HackMD](https://hackmd.io/Yqh8HcvGQt--XWqErcgMAQ?edit)
 
 ### Josh
 
 - Create a figma mockup
+  - [WebSite Mockup](https://www.figma.com/file/hezO6cpTxxVAym5bIVgMCU/Untitled?node-id=0%3A1)
 
 ### Maha
 
@@ -97,11 +101,11 @@
 
 ### Stephan
 
-- Base components on nuxt/vue
+- Base components on Nuxt/vue
 
 ### Further Guidelines
 
-- Plugins with the same rules such as eslin and prettier
+- Plugins with the same rules such as eslint and prettier
 
 ### Attributions
 
@@ -115,15 +119,12 @@
 
 - Card Images
 
+  - [Python]("https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+  - [Front End Bundle](https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80")
+
   - Photo by [JacksonSo](https://unsplash.com/photos/wUbNvDTsOIc)
 
   - Phot by [GregRakozy](https://unsplash.com/@grakozy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
   - Photo by [ClaudioSchwartz](https://unsplash.com/photos/i25aqE_YUZs)
   - Photo by [Lautra Andreani](https://unsplash.com/photos/UYsBCu9RP3Y)
-
-<<<<<<< HEAD
-
-- # Website Mockup- (https://www.figma.com/file/hezO6cpTxxVAym5bIVgMCU/Untitled?node-id=0%3A1)
-  - [WebSite Mockup](https://www.figma.com/file/hezO6cpTxxVAym5bIVgMCU/Untitled?node-id=0%3A1)
-    > > > > > > > b269f4aaa2cdcb97ab84fa69063558f1ab6124c0
